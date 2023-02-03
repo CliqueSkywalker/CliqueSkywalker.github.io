@@ -94,18 +94,12 @@
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
     <iframe src="//player.bilibili.com/player.html?aid=899520179&bvid=BV1oN4y1G7rG&cid=803503649&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"> </iframe>
 </div>
-<div id="gitalk-container"></div>
-var gitalk = new Gitalk({
-  clientID: 'c9f416615fb29f2ddfc5',
-  clientSecret: '2e0d9347864dead40e8f09f675e12d14deb92aa6',
-  repo: 'CliqueSkywalker.github.io',
-  owner: 'CliqueSkywalker',
-  admin: ['CliqueSkywalker'],
-  id: location.pathname,      // Ensure uniqueness and length less than 50
-  distractionFreeMode: false  // Facebook-like distraction free mode
-})
 
-<p>gitalk.render(‘gitalk-container’)</p>
+
+<div id="gitalk-container"></div>
+
+<p><code>var gitalk = new Gitalk(&#123;</code><br>  <code>clientID: &#39;c9f416615fb29f2ddfc5&#39;,</code><br>  <code>clientSecret: &#39;2e0d9347864dead40e8f09f675e12d14deb92aa6&#39;,</code><br>  <code>repo: &#39;CliqueSkywalker.github.io&#39;,</code><br>  <code>owner: &#39;CliqueSkywalker&#39;,</code><br>  <code>admin: [&#39;CliqueSkywalker&#39;],</code><br>  <code>id: location.pathname,      // Ensure uniqueness and length less than 50</code><br>  <code>distractionFreeMode: false  // Facebook-like distraction free mode</code><br><code>&#125;)</code></p>
+<p><code>gitalk.render(&#39;gitalk-container&#39;)</code></p>
 
       
     </div>
