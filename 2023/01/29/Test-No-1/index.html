@@ -14,10 +14,11 @@
 
 测试
 
+
+
 Test No.1①网络图片链接引用：
 
-②HTML代码实现Spotify播放器功能：
-">
+②HTML代码实现Spotify播放器功能">
   
 
   
@@ -90,9 +91,12 @@ Test No.1①网络图片链接引用：
   <div class="article-content">
     <div class="entry">
       
-        <p>title: Test No.1<br>date: 2023-01-29 15:39:10<br>index_img: <a target="_blank" rel="noopener" href="https://source.unsplash.com/random/800x400">https://source.unsplash.com/random/800x400</a><br>tags: </p>
+        <hr>
+<p>title: Test No.1<br>date: 2023-01-29 15:39:10<br>index_img: <a target="_blank" rel="noopener" href="https://source.unsplash.com/random/800x400">https://source.unsplash.com/random/800x400</a><br>tags: </p>
 <ul>
-<li>测试</li>
+<li><p>测试</p>
+<hr>
+</li>
 </ul>
 <h1 id="Test-No-1"><a href="#Test-No-1" class="headerlink" title="Test No.1"></a>Test No.1</h1><p>①网络图片链接引用：</p>
 <p><img src="https://img2.baidu.com/it/u=3640313302,3080143168&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500" alt="Test-No-1_Hexo"></p>
@@ -109,8 +113,14 @@ Test No.1①网络图片链接引用：
 
 <div id="gitalk-container"></div>
 
-<p><code>var gitalk = new Gitalk(&#123;</code><br>  <code>clientID: &#39;c9f416615fb29f2ddfc5&#39;,</code><br>  <code>clientSecret: &#39;2e0d9347864dead40e8f09f675e12d14deb92aa6&#39;,</code><br>  <code>repo: &#39;CliqueSkywalker.github.io&#39;,</code><br>  <code>owner: &#39;CliqueSkywalker&#39;,</code><br>  <code>admin: [&#39;CliqueSkywalker&#39;],</code><br>  <code>id: location.pathname,      // Ensure uniqueness and length less than 50</code><br>  <code>distractionFreeMode: false  // Facebook-like distraction free mode</code><br><code>&#125;)</code></p>
-<p><code>gitalk.render(&#39;gitalk-container&#39;)</code></p>
+
+
+
+
+
+
+
+
 
       
     </div>
@@ -131,24 +141,25 @@ Test No.1①网络图片链接引用：
 </article>
 
   
-
-
 	<section id="comment" class="comment">
-		<div id="gitment"></div>
+		<div id="gitalk-container"></div>
 	</section>
-	<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-	<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+	<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 	<script>
-		var gitment = new Gitment({
-			owner: 'CliqueSkywalker',
+		var gitalk = new Gitalk({
+			clientID: 'c9f416615fb29f2ddfc5',
+			clientSecret: '2e0d9347864dead40e8f09f675e12d14deb92aa6',
 			repo: 'CliqueSkywalker.github.io',
-			oauth: {
-				client_id: 'c9f416615fb29f2ddfc5',
-				client_secret: '2e0d9347864dead40e8f09f675e12d14deb92aa6',
-			},
+			owner: 'CliqueSkywalker',
+			admin: ['CliqueSkywalker'],
+			id: location.pathname,
+			distractionFreeMode: false
 		})
-		gitment.render('gitment')
+		gitalk.render('gitalk-container')
 	</script>
+
+
 
 
 
