@@ -11,7 +11,6 @@ const ap = new APlayer({
     listFolded: false,
     listMaxHeight: 90,
     lrcType: 3,
-    fixed: true,
     audio: [
         {
             name: 'Street Light',
@@ -22,7 +21,7 @@ const ap = new APlayer({
         },
         {
             name: 'Auto Pilot',
-            artist: 'さユり',
+            artist: 'Queens of the Stone Age',
             url: 'http://music.163.com/song/media/outer/url?id=27052547.mp3',
             cover: 'http://p2.music.126.net/4ArkEOBnFNTUI14apkg_2A==/2536573325526461.jpg',
             lrc: ''
