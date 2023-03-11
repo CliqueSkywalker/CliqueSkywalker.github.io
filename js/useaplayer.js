@@ -40,7 +40,7 @@ const ap = new APlayer({
         },
         {
             name: '午後',
-            artist: 'death's dynamic shroud',
+            artist: 'death\'s dynamic shroud',
             url: 'http://music.163.com/song/media/outer/url?id=1392514991.mp3',
             cover: 'http://p1.music.126.net/LOOWgydP-ZdCL5zWC0mn9w==/109951164379853882.jpg',
             lrc: ''
