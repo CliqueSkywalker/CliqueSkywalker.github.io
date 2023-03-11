@@ -9,6 +9,7 @@ const ap = new APlayer({
     listFolded: true,
     listMaxHeight: 90,
     fixed: true,
+    lrcType: 3,
     audio: [
         {
             name: 'Street Light',
