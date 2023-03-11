@@ -29,14 +29,14 @@ const ap = new APlayer({
             artist: 'Brand New',
             url: 'http://music.163.com/song/media/outer/url?id=16813476.mp3',
             cover: 'http://p2.music.126.net/6Ur8Mk5-BweGCZzZLVRc_A==/109951167637374655.jpg',
-            lrc: '/lrc/Not the Sun.lrc'
+            lrc: 'https://redatom.top/lrc/Not the Sun.lrc'
         },
         {
             name: 'It's You',
             artist: 'Animal Collective',
             url: 'http://music.163.com/song/media/outer/url?id=16493900.mp3',
             cover: 'http://p2.music.126.net/muuLitiDCJdAEVnbfSBCaQ==/109951165166485770.jpg',
-            lrc: ''/lrc/It's You.lrc'
+            lrc: ''https://redatom.top/lrc/It's You.lrc'
         },
         {
             name: '午後',
@@ -50,14 +50,14 @@ const ap = new APlayer({
             artist: 'The Dismemberment Plan',
             url: 'http://music.163.com/song/media/outer/url?id=19416116.mp3',
             cover: 'http://p1.music.126.net/5FQJEAhf7vEkTrnYtrdzMA==/109951166350043916.jpg',
-            lrc: '/lrc/The Other Side.lrc'
+            lrc: 'https://redatom.top/lrc/The Other Side.lrc'
         },
         {
             name: 'Liberation Frequency',
             artist: 'Refused',
             url: 'http://music.163.com/song/media/outer/url?id=18751260.mp3',
             cover: 'http://p2.music.126.net/LDjG47cLPkMG41txhOHW8w==/109951164497608984.jpg',
-            lrc: '/lrc/Liberation Frequency.lrc'
+            lrc: 'https://redatom.top/lrc/Liberation Frequency.lrc'
         },
         {
             name: '2:35 (Version 2)',
