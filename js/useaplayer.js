@@ -36,7 +36,7 @@ const ap = new APlayer({
             artist: 'Animal Collective',
             url: 'http://music.163.com/song/media/outer/url?id=16493900.mp3',
             cover: 'http://p2.music.126.net/muuLitiDCJdAEVnbfSBCaQ==/109951165166485770.jpg',
-            lrc: ''https://redatom.top/lrc/It\'s You.lrc'
+            lrc: 'https://redatom.top/lrc/It\'s You.lrc'
         },
         {
             name: '午後',
