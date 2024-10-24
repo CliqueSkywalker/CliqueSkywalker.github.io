@@ -15,9 +15,8 @@ const ap = new APlayer({
             name: 'Femenine',
             artist: 'Julius Eastman',
             url: 'http://CliqueSkywalker.github.io/music/Julius Eastman - Femenine.mp3',
-            cover: 'http://p1.music.126.net/k5fgp078N-0OfW5RNaiQ1A==/109951163076425431.jpg',
+            cover: 'http://CliqueSkywalker.github.io/music/Julius Eastman - Femenine Cover.jpg',
             lrc: ''
         },
-
     ]
 });
