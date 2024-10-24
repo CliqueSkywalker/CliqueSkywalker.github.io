@@ -110,13 +110,6 @@
 
   
   <url>
-    <loc>https://cliqueskywalker.github.io/tags/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2024-10-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://cliqueskywalker.github.io/tags/%E9%9F%B3%E4%B9%90/</loc>
     <lastmod>2024-10-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -132,6 +125,13 @@
   
   <url>
     <loc>https://cliqueskywalker.github.io/tags/%E9%BB%91%E8%83%B6/</loc>
+    <lastmod>2024-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://cliqueskywalker.github.io/tags/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2024-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
